@@ -1,0 +1,179 @@
+.anuncio1{
+position: absolute;
+top: 480px;
+left: 50%;
+transform: translate(-50%, -50%);    
+}
+  
+.carrossel{
+    position: absolute;
+    top: 970px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#tabela{
+    position: absolute;
+    top: 1400px;
+    left: 5%;
+}
+
+#especula{
+    position: absolute;
+    top: 1400px;
+    left: 42%;
+}
+
+#felipe{
+    position: absolute;
+    top: 1800px;
+    left: 42%;
+}
+
+#centroavante{
+    position: absolute;
+    top: 2400px;
+    left: 5%;
+}
+
+#final{
+    position: absolute;
+    top: 2400px;
+    left: 62%;
+}
+
+#matheus{
+    position:absolute;
+    top: 2800px;
+    left: 62%;
+}
+
+#fundotecnico{
+    position: absolute;
+    top: 3300px;
+}
+
+#tecnico{
+    position: absolute;
+    top: 190px;
+    left: 25%;
+}
+
+.anuncio2{
+    position: absolute;
+    top: 4350px;
+    left: 15%;
+}
+
+.rodape{
+    position: absolute;
+    top: 4700px;    
+}
+
+.patrocinador{
+    position: absolute;
+    top: 70px;
+    left: 18%;
+}
+
+.patrocinador2{
+    position: absolute;
+    top: 70px;
+    left: 32%;
+}
+
+.patrocinador3{
+    position: absolute;
+    top: 70px;
+    left: 41%;
+}
+
+.X{
+    position: absolute;
+    top: 90px;
+    left: 70%;
+}
+
+.of{
+    position: absolute;
+    top: 90px;
+    left: 75%;
+}
+
+.instagram{
+    position: absolute;
+    top: 90px;
+    left: 80%;
+}
+
+.lupa{
+    position: absolute;
+    top: 90px;
+    left: 90%;
+}
+
+.linha{
+    position: absolute;
+    top: 150px;
+    left: 66%;
+}
+
+.linha2{
+    position: absolute;
+    top: 90px;
+    left: 86%;
+}
+
+.linha3{
+    position: absolute;
+    top: 280px;
+    left: 1.1%;
+}
+
+.escritas{
+    position: absolute;
+    top: 300px;
+    left: 1.1%;
+}
+
+.patrocinador11{
+    position: absolute;
+    top: 100px;
+    left: 66%;
+}
+
+.patrocinador22{
+    position: absolute;
+    top: 100px;
+    left: 74%;
+}
+
+.patrocinador33{
+    position: absolute;
+    top: 100px;
+    left: 82%;
+}
+
+.patrocinador44{
+    position: absolute;
+    top: 100px;
+    left: 90%;
+}
+
+.linha1122{
+    position: absolute;
+    top: 165px;
+    left: 20%;
+}
+
+.escritazada22{
+    position: absolute;
+    top: 140px;
+    left: 40%;
+}
+
+.escritazada33{
+    position: absolute;
+    top: 180px;
+    left: 37%;
+}
