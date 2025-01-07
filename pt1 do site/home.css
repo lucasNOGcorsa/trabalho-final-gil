@@ -104,19 +104,19 @@ input {
     left: 5%;
 }
 
-#especula{
-    position: absolute;
-    top: 1400px;
-    left: 42%;
+.caçarato{
+    top: 1350px;
+    margin-left: 42%;
+    margin-top: 785px;
 }
 
-#felipe{
+.felipe{
     position: absolute;
     top: 1800px;
     left: 42%;
 }
 
-#centroavante{
+.lzbarbosa{
     position: absolute;
     top: 2400px;
     left: 5%;
