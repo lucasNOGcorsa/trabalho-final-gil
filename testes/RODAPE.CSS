@@ -1,8 +1,5 @@
 
-.rodape{
-    position: absolute;
-    top: 3300px;
-}
+
 .patrocinador11{
     position: absolute;
     top: 100px;
@@ -30,7 +27,7 @@
 .linha1122{
     position: absolute;
     top: 165px;
-    left: 20%;
+    left: 27%;
 }
 
 .escritazada22{
@@ -44,3 +41,10 @@
     top: 180px;
     left: 37%;
 }
+
+
+
+.rodapers{
+    background-color: black;
+}
+
