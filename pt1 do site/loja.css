@@ -191,9 +191,119 @@
 .anunciozada{
     position: absolute;
     top: 600px;
+    left: 1%;
 }
 
 .faixa{
     position: absolute;
-    top: 1200px;
+    top: 1300px;
+    left: 1%;
+}
+
+.cabeçao{
+    margin-top:-1%;
+    margin-left: -0.58%;
+    background-color: rgb(243, 199, 199);
+}
+
+.outralinha{
+    position: absolute;
+    top: 180px;
+    left: 75%;
+}
+
+.twitter{
+    position: absolute;
+    top: -45px;
+    left: 30%;
+}
+
+.instagrama{
+    position: absolute;
+    top: -45px;
+    left: 10%;
+}
+
+.lupas{
+    position: absolute;
+    top: -45px;
+    left: 70%;
+}
+
+.linhadnv{
+   
+    position: absolute;
+    top: 350px;
+    left: 1%;
+}
+
+.linha1122{
+    position: absolute;
+    top: 165px;
+    left: 27%;
+}
+
+.escritazada22{
+    position: absolute;
+    top: 140px;
+    left: 40%;
+}
+
+.escritazada33{
+    position: absolute;
+    top: 180px;
+    left: 37%;
+}
+
+
+
+.pag1{
+    position: absolute;
+    top: 370px;
+    left: 3%;
+}
+
+.pag2{
+    position: absolute;
+    top: 370px;
+    left: 20%;
+}
+
+.pag3{
+    position: absolute;
+    top: 370px;
+    left: 37%;
+}
+
+.pag4{
+    position: absolute;
+    top: 370px;
+    left: 54%;
+}
+
+
+.pag5{
+    position: absolute;
+    top: 370px;
+    left: 71%;
+}
+
+
+.pag6{
+    position: absolute;
+    top: 370px;
+    left: 90%
+}
+
+.rodapers{
+    margin-left: -1.94%;
+    position: absolute;
+    top: 3700px;
+    background-color: black;
+}
+
+.logorodape{
+position: absolute;
+left:40%
+
 }
