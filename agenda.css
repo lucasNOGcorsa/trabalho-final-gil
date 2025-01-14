@@ -1,0 +1,202 @@
+
+
+
+
+.cabeçao{
+    margin-top:-1%;
+    margin-left: -0.58%;
+    background-color: rgb(243, 199, 199);
+}
+
+.outralinha{
+    position: absolute;
+    top: 180px;
+    left: 75%;
+}
+
+.twitter{
+    position: absolute;
+    top: -45px;
+    left: 30%;
+}
+
+.instagrama{
+    position: absolute;
+    top: -45px;
+    left: 10%;
+}
+
+.lupas{
+    position: absolute;
+    top: -45px;
+    left: 70%;
+}
+
+.linhadnv{
+   
+    position: absolute;
+    top: 350px;
+    left: 1%;
+}
+
+.linha1122{
+    position: absolute;
+    top: 165px;
+    left: 27%;
+}
+
+.escritazada22{
+    position: absolute;
+    top: 140px;
+    left: 40%;
+}
+
+.escritazada33{
+    position: absolute;
+    top: 180px;
+    left: 37%;
+}
+
+
+
+.pag1{
+    position: absolute;
+    top: 370px;
+    left: 3%;
+}
+
+.pag2{
+    position: absolute;
+    top: 370px;
+    left: 20%;
+}
+
+.pag3{
+    position: absolute;
+    top: 370px;
+    left: 37%;
+}
+
+.pag4{
+    position: absolute;
+    top: 370px;
+    left: 54%;
+}
+
+
+.pag5{
+    position: absolute;
+    top: 370px;
+    left: 71%;
+}
+
+
+.pag6{
+    position: absolute;
+    top: 370px;
+    left: 90%
+}
+
+
+.escritas{
+    position: absolute;
+    top: 100px;
+    left: 20%;
+}
+
+.logos{
+    position: absolute;
+    top: 400px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.anunciozada{
+    position: absolute;
+    top: 500px;
+    
+}
+
+.faixa{
+    position: absolute;
+    top: 1205px;
+}
+
+.logada{
+    position: absolute;
+    top: 1350px;
+    left: 40%;
+}
+
+.agenda{
+    position: absolute;
+    top: 1600px;
+    left: 20%;
+}
+
+.imagema{
+    position: absolute;
+    top: 3300px;
+    left: 10%;
+    
+}
+
+.patrocinador11{
+    position: absolute;
+    top: 100px;
+    left: 46%;
+}
+
+.patrocinador22{
+    position: absolute;
+    top: 100px;
+    left: 38%;
+}
+
+.patrocinador33{
+    position: absolute;
+    top: 100px;
+    left: 30%;
+}
+
+.patrocinador44{
+    position: absolute;
+    top: 100px;
+    left: 90%;
+}
+
+.linha1122{
+    position: absolute;
+    top: 165px;
+    left: 20%;
+}
+
+.escritazada22{
+    position: absolute;
+    top: 140px;
+    left: 40%;
+}
+
+.escritazada33{
+    position: absolute;
+    top: 180px;
+    left: 37%;
+}
+
+.rodape{
+    position: absolute;
+    top: 4300px;
+}
+
+.rodapers{
+    margin-left: -1.94%;
+    position: absolute;
+    top: 4700px;
+    background-color: black;
+}
+
+.logorodape{
+position: absolute;
+left:40%
+
+}
