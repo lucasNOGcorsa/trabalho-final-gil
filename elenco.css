@@ -1,0 +1,747 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&display=swap');
+.cabeçao{
+    margin-top:-1%;
+    margin-left: -0.58%;
+    box-shadow: #A60000 ;
+}
+.outralinha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    border: solid 1px rgba(166, 0, 0, 1);
+    width: 300px;
+    height: 60px;
+    margin: 20px auto;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+/* Ícones */
+.outralinha div img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    transition: transform 0.3s ease, filter 0.3s ease, box-shadow 0.3s ease, translate 0.3s ease;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Animação no Hover */
+.outralinha div img:hover {
+    transform: scale(1.2) translateY(-5px); /* Aumenta e sobe levemente */
+    filter: brightness(1.2); /* Aumenta o brilho */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Sombra mais forte */
+}
+
+/* Link (Bonecudo) */
+.outralinha .bonecudo a {
+    display: inline-block;
+    text-decoration: none;
+}
+.paginas {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f4f4f4;
+    padding: 10px 0;
+    border-bottom: 2px solid #ddd;
+}
+
+.paginas div {
+    margin: 0 10px;
+}
+
+.paginas a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.paginas a:hover {
+    color: #007BFF;
+    transform: scale(1.1) translateY(-3px); /* Aumenta e sobe levemente */
+}
+
+.paginas a:active {
+    color: #0056b3;
+    transform: scale(1.1) translateY(-1px); /* Leve descida ao clique */
+}
+.paginas {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f4f4f4;
+    padding: 10px 0;
+    border-bottom: 2px solid #ddd;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra no cabeçalho */
+}
+
+.paginas div {
+    margin: 0 10px;
+}
+
+.paginas a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.3s ease, text-shadow 0.3s ease;
+}
+
+.paginas a:hover {
+    color: #007BFF;
+    transform: scale(1.1) translateY(-3px); /* Aumenta e sobe levemente */
+    text-shadow: 0 2px 4px rgba(0, 123, 255, 0.5); /* Sombra no texto ao passar o mouse */
+}
+
+.paginas a:active {
+    color: #0056b3;
+    transform: scale(1.1) translateY(-1px);
+}
+
+
+body{
+    background-color:   rgba(166, 0, 0, 1);
+}
+
+.escritas{
+    position: absolute;
+    top: 100px;
+    left: 20%;
+}
+
+.bonecudo{
+    position: absolute;
+    top: -45px;
+    left: 50%;
+
+}
+
+.logos{
+    position: absolute;
+    top: 400px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.faixalogo{
+    text-align: center;
+    position: absolute;
+    top: 450px;
+    left: 34%;
+    background-color: black;
+}
+
+#elencoofica{
+    position: relative;
+    top: 15px;
+}
+
+.fundoelenco{
+    position: absolute;
+    top: 600px;
+    left: 20%;
+    background-color: aliceblue;
+}
+
+#felipeneto{
+
+    position: absolute;
+    top: 70px;
+    left: 5%;
+
+}
+
+#lazaro{
+    position: absolute;
+    top: 70px;
+    left: 35%;
+}
+
+#matheus{
+    position: absolute;
+    top: 70px;
+    left: 65%;
+}
+
+#ryan{
+    position: absolute;
+    top: 400px;
+    left: 5%;
+}
+
+#celso{
+    position: absolute;
+    top: 400px;
+    left: 35%;
+}
+
+#berti{
+    position: absolute;
+    top: 800px;
+    left: 5%;
+}
+
+#dani{
+    position: absolute;
+    top: 800px;
+    left: 35%;
+}
+
+#bertidois{
+    position: absolute;
+    top: 800px;
+    left: 65%;
+}
+
+#marra{
+    position: absolute;
+    top: 1200px;
+    left: 65%;
+}
+
+#king{
+    position: absolute;
+    top: 1200px;
+    left: 35%;
+}
+
+#oreia{
+    position: absolute;
+    top: 1200px;
+    left: 5%;
+}
+
+#raiam{
+    position: absolute;
+    top: 1600px;
+    left: 5%;
+}
+
+#tesla{
+    position: absolute;
+    top: 1600px;
+    left: 35%;
+}
+
+#chiquinho{
+    position: absolute;
+    top: 1600px;
+    left: 65%;
+}
+
+#charles{
+
+    position: absolute;
+    top: 1970px;
+    left: 5%;
+}
+
+#ronaldin{
+    position: absolute;
+    top: 1970px;
+    left: 35%;
+
+}
+
+#bruno{
+    position: absolute;
+    top: 2370px;
+    left: 5%;
+
+}
+
+#leandro{
+    position: absolute;
+    top: 2370px;
+    left: 35%;
+
+}
+
+#yuri{
+    position: absolute;
+    top: 2770px;
+    left: 5%;
+
+}
+
+.rodape{
+    position: absolute;
+    top: 3700px;
+}
+
+
+.outralinha{
+    position: absolute;
+    top: 180px;
+    left: 75%;
+}
+
+.twitter{
+    position: absolute;
+    top: -45px;
+    left: 30%;
+}
+
+.instagrama{
+    position: absolute;
+    top: -45px;
+    left: 10%;
+}
+
+.lupas{
+    position: absolute;
+    top: -45px;
+    left: 70%;
+}
+
+.linhadnv{
+   
+    position: absolute;
+    top: 350px;
+    left: 1%;
+}
+
+.linha1122{
+    position: absolute;
+    top: 165px;
+    left: 27%;
+}
+
+.escritazada22{
+    position: absolute;
+    top: 140px;
+    left: 40%;
+}
+
+.escritazada33{
+    position: absolute;
+    top: 180px;
+    left: 37%;
+}
+
+
+
+.pag1{
+    position: absolute;
+    top: 370px;
+    left: 3%;
+}
+
+.pag2{
+    position: absolute;
+    top: 370px;
+    left: 20%;
+}
+
+.pag3{
+    position: absolute;
+    top: 370px;
+    left: 37%;
+}
+
+.pag4{
+    position: absolute;
+    top: 370px;
+    left: 54%;
+}
+
+
+.pag5{
+    position: absolute;
+    top: 370px;
+    left: 71%;
+}
+
+
+.pag6{
+    position: absolute;
+    top: 370px;
+    left: 90%
+}
+
+.patrocinador11{
+    position: absolute;
+    top: 140px;
+    left: 46%;
+}
+
+.patrocinador22{
+    position: absolute;
+    top: 140px;
+    left: 38%;
+}
+
+.patrocinador33{
+    position: absolute;
+    top: 140px;
+    left: 30%;
+}
+    
+
+.lat{
+    position: absolute;
+    top: 700px;
+}
+
+.zag{
+    position: absolute;
+    top: 1100px;
+}
+
+.mei{
+    position: absolute;
+    top: 1500px;
+}
+
+.gol{
+    position: absolute;
+    top: 2250px;
+}
+
+.tec{
+    position: absolute;
+    top: 2650px;
+}
+
+
+.rodapers{
+    margin-left: -0.95%;
+    position: absolute;
+    top: 3700px;
+    background-color: black;
+}
+
+.logorodape{
+position: absolute;
+left:40%
+
+}
+
+@media (max-widht: 360px){
+    body{
+        background-color:   rgba(166, 0, 0, 1);
+    }
+    
+    .escritas{
+        position: absolute;
+        top: 100px;
+        left: 20%;
+    }
+    
+    .bonecudo{
+        position: absolute;
+        top: -45px;
+        left: 50%;
+    
+    }
+    
+    .logos{
+        position: absolute;
+        top: 400px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .faixalogo{
+        text-align: center;
+        position: absolute;
+        top: 450px;
+        left: 34%;
+        background-color: black;
+    }
+    
+    #elencoofica{
+        position: relative;
+        top: 15px;
+    }
+    
+    .fundoelenco{
+        position: absolute;
+        top: 600px;
+        left: 20%;
+        background-color: aliceblue;
+    }
+    
+    #felipeneto{
+    
+        position: absolute;
+        top: 70px;
+        left: 5%;
+    
+    }
+    
+    #lazaro{
+        position: absolute;
+        top: 70px;
+        left: 35%;
+    }
+    
+    #matheus{
+        position: absolute;
+        top: 70px;
+        left: 65%;
+    }
+    
+    #ryan{
+        position: absolute;
+        top: 400px;
+        left: 5%;
+    }
+    
+    #celso{
+        position: absolute;
+        top: 400px;
+        left: 35%;
+    }
+    
+    #berti{
+        position: absolute;
+        top: 800px;
+        left: 5%;
+    }
+    
+    #dani{
+        position: absolute;
+        top: 800px;
+        left: 35%;
+    }
+    
+    #bertidois{
+        position: absolute;
+        top: 800px;
+        left: 65%;
+    }
+    
+    #marra{
+        position: absolute;
+        top: 1200px;
+        left: 65%;
+    }
+    
+    #king{
+        position: absolute;
+        top: 1200px;
+        left: 35%;
+    }
+    
+    #oreia{
+        position: absolute;
+        top: 1200px;
+        left: 5%;
+    }
+    
+    #raiam{
+        position: absolute;
+        top: 1600px;
+        left: 5%;
+    }
+    
+    #tesla{
+        position: absolute;
+        top: 1600px;
+        left: 35%;
+    }
+    
+    #chiquinho{
+        position: absolute;
+        top: 1600px;
+        left: 65%;
+    }
+    
+    #charles{
+    
+        position: absolute;
+        top: 1970px;
+        left: 5%;
+    }
+    
+    #ronaldin{
+        position: absolute;
+        top: 1970px;
+        left: 35%;
+    
+    }
+    
+    #bruno{
+        position: absolute;
+        top: 2370px;
+        left: 5%;
+    
+    }
+    
+    #leandro{
+        position: absolute;
+        top: 2370px;
+        left: 35%;
+    
+    }
+    
+    #yuri{
+        position: absolute;
+        top: 2770px;
+        left: 5%;
+    
+    }
+    
+    .rodape{
+        position: absolute;
+        top: 3700px;
+    }
+    .cabeçao{
+        margin-top:-1%;
+        margin-left: -0.58%;
+         box-shadow: #ffffff ;
+    }
+    
+    .outralinha{
+        position: absolute;
+        top: 180px;
+        left: 75%;
+    }
+    
+    .twitter{
+        position: absolute;
+        top: -45px;
+        left: 30%;
+    }
+    
+    .instagrama{
+        position: absolute;
+        top: -45px;
+        left: 10%;
+    }
+    
+    .lupas{
+        position: absolute;
+        top: -45px;
+        left: 70%;
+    }
+    
+    .linhadnv{
+       
+        position: absolute;
+        top: 350px;
+        left: 1%;
+    }
+    
+    .linha1122{
+        position: absolute;
+        top: 165px;
+        left: 27%;
+    }
+    
+    .escritazada22{
+        position: absolute;
+        top: 140px;
+        left: 40%;
+    }
+    
+    .escritazada33{
+        position: absolute;
+        top: 180px;
+        left: 37%;
+    }
+    
+    
+    
+    .pag1{
+        position: absolute;
+        top: 370px;
+        left: 3%;
+    }
+    
+    .pag2{
+        position: absolute;
+        top: 370px;
+        left: 20%;
+    }
+    
+    .pag3{
+        position: absolute;
+        top: 370px;
+        left: 37%;
+    }
+    
+    .pag4{
+        position: absolute;
+        top: 370px;
+        left: 54%;
+    }
+    
+    
+    .pag5{
+        position: absolute;
+        top: 370px;
+        left: 71%;
+    }
+    
+    
+    .pag6{
+        position: absolute;
+        top: 370px;
+        left: 90%
+    }
+    
+    .patrocinador11{
+        position: absolute;
+        top: 140px;
+        left: 46%;
+    }
+    
+    .patrocinador22{
+        position: absolute;
+        top: 140px;
+        left: 38%;
+    }
+    
+    .patrocinador33{
+        position: absolute;
+        top: 140px;
+        left: 30%;
+    }
+        
+    
+    .lat{
+        position: absolute;
+        top: 700px;
+    }
+    
+    .zag{
+        position: absolute;
+        top: 1100px;
+    }
+    
+    .mei{
+        position: absolute;
+        top: 1500px;
+    }
+    
+    .gol{
+        position: absolute;
+        top: 2250px;
+    }
+    
+    .tec{
+        position: absolute;
+        top: 2650px;
+    }
+    
+    
+    .rodapers{
+        margin-left: -0.95%;
+        position: absolute;
+        top: 3700px;
+        background-color: black;
+    }
+    
+    .logorodape{
+    position: absolute;
+    left:40%
+    
+    }
+    
+}
